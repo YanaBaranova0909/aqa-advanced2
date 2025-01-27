@@ -1,11 +1,11 @@
 function checkOrder(available, ordered) {
     if (ordered === 0) {
-    console.log("Your order is empty")
+        console.log("Your order is empty");
     return;
   }
 
     if (ordered > available) {
-    console.log("Your order is too large, we don’t have enough goods")
+        console.log("Your order is too large, we don’t have enough goods");
     return;
   }
 
